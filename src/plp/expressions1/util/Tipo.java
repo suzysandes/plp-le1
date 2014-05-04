@@ -35,6 +35,8 @@ public interface Tipo {
 	 *         <code>false</code> caso contrario.
 	 */
 	public abstract boolean eString();
+	
+	public abstract boolean eChar();
 
 	/**
 	 * Compara este tipo com o tipo dado.
